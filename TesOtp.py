@@ -56,13 +56,13 @@ if __name__ == '__main__':
                 ⠄⠄⣼⣿⣿⣿⢃⣾⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⡏⣿⣿⣿⡇⠄ 
                 ⠄⠄⣿⣿⡟⣵⣿⣿⣿⣿⣿⣿⣿⣿⡟⢻⣿⣿⢇⣿⣿⡿⠄⠄
 --------------------------------------------------
-Spam Sms
+Spam Sms Indihome
 Coded by \033[31;2mCyber\033[39;2mk4nd4S\033[0;1m
 ex: 08xxxxx77\033[0m
 --------------------------------------------------
 	""")
 
-		no = input("No    : ")
+		no = input("Nomor    : ")
 		if(no.isdigit()):
 			pass
 		else:
@@ -73,7 +73,7 @@ ex: 08xxxxx77\033[0m
 			print("Check your number phone!")
 			sys.exit()
 
-		cnt = input("Count : ")
+		cnt = input("Jumlah Spam : ")
 
 		if bool(cnt.isdigit()) == 0:
 			print("Check your count!")
