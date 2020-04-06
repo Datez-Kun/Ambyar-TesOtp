@@ -73,7 +73,7 @@ if __name__ == '__main__':
 			print("Check your number phone!")
 			sys.exit()
 
-		cnt = input("Jumlah Spam : ")
+		cnt = input("Jumlah    : ")
 
 		if bool(cnt.isdigit()) == 0:
 			print("Check your count!")
@@ -83,4 +83,6 @@ if __name__ == '__main__':
 			main(cnt, no)
 	except(KeyboardInterrupt, EOFError):
 		print("\n")
-		sys.exit()
+		sys.exit('GOODBYE :*')
+except Exception as Err:
+	sys.exit(Err)
