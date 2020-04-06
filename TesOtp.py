@@ -56,9 +56,9 @@ if __name__ == '__main__':
                 ⠄⠄⣼⣿⣿⣿⢃⣾⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⡏⣿⣿⣿⡇⠄ 
                 ⠄⠄⣿⣿⡟⣵⣿⣿⣿⣿⣿⣿⣿⣿⡟⢻⣿⣿⢇⣿⣿⡿⠄⠄
    --------------------------------------------------
-                Spam Sms Indihome
-                Coded by \033[31;2mCyber\033[39;2mk4nd4S\033[0;1m
-                ex: 08xxxxx77\033[0m
+                  Spam Sms Indihome
+                  Coded by \033[31;2mCyber\033[39;2mk4nd4S\033[0;1m
+                  ex: 08xxxxx77\033[0m
    --------------------------------------------------
 	""")
 
@@ -83,6 +83,4 @@ if __name__ == '__main__':
 			main(cnt, no)
 	except(KeyboardInterrupt, EOFError):
 		print("\n")
-		sys.exit('GOODBYE :*')
-except Exception as Err:
-	sys.exit(Err)
+		sys.exit()
