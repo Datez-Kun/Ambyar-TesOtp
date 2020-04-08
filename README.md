@@ -1,9 +1,10 @@
 - pkg update && upgrade
-- pkg install python3
+- pkg install python
 - pkg install git
+- pip install requests
 - git clone https://github.com/Cyberk4nd4S/Ambyar-TesOtp
 - cd Ambyar-TesOtp
 - ls
-- python3 SpamIndihome.py
+- python SpamIndihome.py
 
 powered by > ҜѦ͋ҊͥĐͣѧͫՖ
